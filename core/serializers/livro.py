@@ -1,5 +1,5 @@
 from core.models import Livro
-from core.models.livro import Livro
+
 from rest_framework.serializers import ModelSerializer
 
 
