@@ -10,6 +10,5 @@ class LivroViewSet(ModelViewSet):
 
     def get_serializer_class(self):
         if self.action in {'list', 'retrieve'}:
-            return
-        LivroListRetrieveSerializer
+            return LivroListRetrieveSerializer
         return LivroSerializer
