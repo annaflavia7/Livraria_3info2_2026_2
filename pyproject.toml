@@ -72,3 +72,4 @@ ignore = ["PLR6301"]
 [tool.ruff.format]
 preview = true
 quote-style = 'single'
+post_migrate = "python manage.py graph_models --disable-sort-fields -S -g -o core.png core uploader"

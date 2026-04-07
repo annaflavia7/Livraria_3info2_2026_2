@@ -1,6 +1,6 @@
-from attr import fields
-from core.models.autor import Autor
 from rest_framework.serializers import ModelSerializer
+
+from core.models.autor import Autor
 
 
 class AutorSerializer(ModelSerializer):
